@@ -108,7 +108,7 @@ app = FastAPI(title="PDF Chapter Extractor API")
 origins = [
     "http://localhost:3000",    # Local React dev server
     "http://localhost:3001",    # Another potential local port
-    "https://book-frontend-smoky.vercel.app/", # EXAMPLE: Replace with your Vercel URL
+    "https://book-frontend-smoky.vercel.app", # EXAMPLE: Replace with your Vercel URL
 ]
 
 app.add_middleware(
